@@ -1,0 +1,48 @@
+body, html {
+	height: 100%;
+	background-color: black;
+	}
+			
+	h3 {
+		display: flex;
+		justify-content: center;
+		color: #b1c3e2;
+		font-family: 'Josefin Sans', sans-serif;
+		padding-top: 1.8em;
+	}
+
+	h5 {
+		display: flex;
+		padding-top: 1em;
+		justify-content: center;
+	}
+
+
+			
+	.bg {
+		background-image: url("milkywaygeysers_920.jpg"), url("galacticuniverse.jpg");
+		height: 100%;
+		background-position: center;
+		background-size: cover;
+	}
+			
+	.Aligner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 83%;
+		justify-content: center;
+		transition-duration: 5s;
+    }
+			
+	.resume {
+		text-decoration: none;
+    }
+
+    .btn {
+    	transition: all 0.25s;
+    }
+
+    .btn:hover {
+    	transform: scale(1.5);
+    }
