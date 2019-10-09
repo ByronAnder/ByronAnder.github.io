@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Byron Anderson - Knowledge Aficionado</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" type="text/css" charset="utf-8" />
+
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="barber_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="cube-wrapper">
+          <div class="cube-folding">
+            <span class="leaf1"></span>
+            <span class="leaf2"></span>
+            <span class="leaf3"></span>
+            <span class="leaf4"></span>
+          </div>
+          <span class="loading" data-name="Loading">Byron's World Loading</span>
+        </div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+    <div id="wrapper">
+
+        <!-- Sidebar-wrapper -->
+        <div id="sidebar-wrapper">
+            <div class="side-top">
+                <div class="logo-sidebar">
+                    <a href="index.html"><img src="images/B_A_Sig_Web.png" alt="image"></a>
+                </div>
+                <ul class="sidebar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="experience.html">Work Experience</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Sidebar-wrapper -->
+
+        <!-- Page Content -->
+                    <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="menuopener" id="menu-toggle"><i class="fa fa-bars"></i></a>
+            
+
+
+            <section class="section nopad cac text-center">
+                <a href="#"><h3>Skills are great to add value and teach those willing to learn.</h3></a>
+            </section>
+
+
+
+
+                    <hr class="hr1"> 
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="about-tab">
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#tab_a" data-toggle="tab"><b>Contact Information</b></a></li>            
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade in active" id="tab_a">
+                                        <h2> Byron Anderson </h2>
+                                        <h3> 8425 Walnut Hill </h3>
+                                        <h3> Dexter, MI  48130 </h3>
+                                        <h3> (734) 883-3410 </h3>
+                                        <h3> ByronAnderson@gmail.com </h3>
+                                </div><!-- tab content -->
+                            </div>
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                    
+                  <!--   <hr class="hr1"> --> 
+                            </div><!-- end carousel -->
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end section -->
+
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <script src="js/responsive-tabs.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    (function($) {
+        "use strict";
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        smoothScroll.init({
+            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+            speed: 500, // Integer. How fast to complete the scroll in milliseconds
+            easing: 'easeInOutCubic', // Easing pattern to use
+            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+            callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        });
+    })(jQuery);
+    </script>
+
+</body>
+</html>

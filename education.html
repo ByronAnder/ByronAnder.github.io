@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Byron Anderson - Knowledge Aficionado</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="barber_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="cube-wrapper">
+          <div class="cube-folding">
+            <span class="leaf1"></span>
+            <span class="leaf2"></span>
+            <span class="leaf3"></span>
+            <span class="leaf4"></span>
+          </div>
+          <span class="loading" data-name="Loading">Byron's World Loading</span>
+        </div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+    <div id="wrapper">
+
+        <!-- Sidebar-wrapper -->
+        <div id="sidebar-wrapper">
+            <div class="side-top">
+                <div class="logo-sidebar">
+                    <a href="index.html"><img src="images/B_A_Sig_Web.png" alt="image"></a>
+                </div>
+                <ul class="sidebar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="experience.html">Work Experience</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a class="active" href="education.html">Education</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="menuopener" id="menu-toggle"><i class="fa fa-bars"></i></a>
+            
+
+
+            <section class="section nopad cac text-center">
+                <a href="#"><h3>Academic Accomplishments</h3></a>
+            </section>
+
+            <div class="section wb">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <div class="message-box">
+                                <h4>I grew up learning in Concord from kindergarten all the way until I graduated high school.</h4>
+                                    <h3>
+                                        <p>My goal to get accepted to the University of Michigan from Concord was usually mistaken for a joke since we were just a small farm town and my backup school was inevitably what people would wonder about.  Answering with complete honesty was the most fun because there was no back-up.  I wanted to go to The University of Michigan and I put in the work to make it happen.</p>
+                                    </h3>  
+                                        <h3>Schooling Notes:</h3>
+
+                                    <ul>
+                                        <li><i class="fa fa-circle-o" aria-hidden="true"></i> Graduated as the class Valedictorian from Concord High School in 2006.</li>
+                                        <li><i class="fa fa-circle-o" aria-hidden="true"></i> Studied sociology and business and graduated from the University of Michigan in 2010.  I'm often asked why I didn't go into computer science, and that's because I wanted to learn something I didn't already know about from spending my whole life becoming an expert from natural interest.</li>
+                                    </ul>
+                            </div><!-- end messagebox -->
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                    
+                    <hr class="hr1"> 
+                    
+                  <!--   <hr class="hr1"> --> 
+                            </div><!-- end carousel -->
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end section -->
+
+            <div class="copyrights">
+                <div class="container-fluid">
+                    <div class="footer-distributed">
+                        <div class="footer-company-name">
+                            <p class="footer-links">
+                                <a href="index.html">Home</a>
+                                <a href="contact.html">Contact</a>
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- end container -->
+            </div><!-- end copyrights -->   
+        </div>
+    </div><!-- end wrapper -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <script src="js/responsive-tabs.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    (function($) {
+        "use strict";
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        smoothScroll.init({
+            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+            speed: 500, // Integer. How fast to complete the scroll in milliseconds
+            easing: 'easeInOutCubic', // Easing pattern to use
+            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+            callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        });
+    })(jQuery);
+    </script>
+
+</body>
+</html>
