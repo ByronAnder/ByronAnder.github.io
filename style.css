@@ -6,7 +6,7 @@
 /*------------------------------------------------------------------
     [Table of contents]
 
-    1. IMPORT FONTS
+    1. IMPORT FONTS0
     2. IMPORT FILES
     3. SKELETON
     4. WP CORE
@@ -2352,7 +2352,7 @@ body.barber_version .service-wrap:hover{
 	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(254,254,253,0) 1%, rgba(188,158,84,1) 99%, rgba(187,157,82,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(254,254,253,0) 1%,rgba(188,158,84,1) 99%,rgba(187,157,82,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(254,254,253,0) 1%,rgba(188,158,84,1) 99%,rgba(187,157,82,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+,
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#0f479f',GradientType=0 ); /* IE6-9 */
+	*/
 }
 
 body.barber_version .dev-list .widget:hover .hover-br .social-up-hover{
@@ -2406,16 +2406,3 @@ body.barber_version .dev-list .widget:hover .hover-br .social-up-hover .footer-s
 .appointment-time ul li span:last-child{
 	float: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
